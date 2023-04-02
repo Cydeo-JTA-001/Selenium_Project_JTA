@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SeleniumTest {
     public static void main(String[] args) throws InterruptedException {
+
         //1- Setting up the web driver manager
         WebDriverManager.chromedriver().setup();
 

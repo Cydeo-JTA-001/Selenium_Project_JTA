@@ -15,9 +15,6 @@ public class SeleniumTest {
         //2- Create the instance of Chrome browser driver
         WebDriver driver = new ChromeDriver();
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-notifications");
-        options.addArguments("disable-infobars");
 
         //3- Test if driver and browser are working as expected
         driver.get("https://www.google.com");

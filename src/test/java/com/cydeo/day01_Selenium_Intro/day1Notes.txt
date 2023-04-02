@@ -1,0 +1,13 @@
+1. Small Review of HTML
+   purple color text- tag
+   brown color text- attribute
+   blue color text- value
+   black color text- text
+
+   <tag attribute="value"> text </tag>
+
+
+
+2. Information about Automation
+3. Introduction to Selenium
+4. Basic Navigation with Selenium

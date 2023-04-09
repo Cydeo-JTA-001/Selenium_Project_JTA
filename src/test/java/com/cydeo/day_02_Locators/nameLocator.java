@@ -15,7 +15,7 @@ public class nameLocator {
         driver.manage().window().maximize();
 
         WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("Selenium");
+                searchBox.sendKeys("Selenium");
         searchBox.sendKeys(Keys.ENTER);
 
         //verify the title has changed--means that we wer able to click successfully

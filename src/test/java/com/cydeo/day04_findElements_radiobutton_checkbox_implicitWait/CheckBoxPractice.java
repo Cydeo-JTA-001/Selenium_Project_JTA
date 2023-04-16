@@ -10,7 +10,8 @@ import java.time.Duration;
 
 public class CheckBoxPractice {
     public static void main(String[] args) {
-     //   TC#3: Checkboxes
+
+        //   TC#3: Checkboxes
 
         //setup chrome driver
         WebDriverManager.chromedriver().setup();
@@ -33,11 +34,10 @@ public class CheckBoxPractice {
         WebElement checkbox2=driver.findElement(By.id("box2"));
         System.out.println("checkbox2.isSelected() confirm true= " + checkbox2.isSelected());
 
-
         //   4. Click checkbox #1 to select it.
-    //    5. Click checkbox #2 to deselect it.
-    //    6. Confirm checkbox #1 is SELECTED.
-    //    7. Confirm checkbox #2 is NOT selected.
+        //    5. Click checkbox #2 to deselect it.
+        //    6. Confirm checkbox #1 is SELECTED.
+        //    7. Confirm checkbox #2 is NOT selected.
 
 
         driver.quit();

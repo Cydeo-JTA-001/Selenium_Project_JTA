@@ -1,4 +1,4 @@
-package com.cydeo.day04_findElements_radiobutton_checkbox_implicitWait;
+package com.cydeo.day_04_findElements_radiobutton_checkbox_implicitWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class CheckBoxPractice {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //   TC#3: Checkboxes
 
@@ -33,11 +33,20 @@ public class CheckBoxPractice {
         //    3. Confirm checkbox #2 is SELECTED by default.
         WebElement checkbox2=driver.findElement(By.id("box2"));
         System.out.println("checkbox2.isSelected() confirm true= " + checkbox2.isSelected());
-
+Thread.sleep(2000);
         //   4. Click checkbox #1 to select it.
+            checkbox1.click();
+            Thread.sleep(2000);
+
         //    5. Click checkbox #2 to deselect it.
+            checkbox2.click();
+            Thread.sleep(2000);
+
         //    6. Confirm checkbox #1 is SELECTED.
+        System.out.println("checkbox1.isSelected() confirm selected = " + checkbox1.isSelected());
+
         //    7. Confirm checkbox #2 is NOT selected.
+        System.out.println("checkbox2.isSelected() confirm not selected= " + checkbox2.isSelected());
 
 
         driver.quit();

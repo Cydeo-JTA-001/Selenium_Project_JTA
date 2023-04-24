@@ -1,4 +1,4 @@
-package com.cydeo.day04_findElements_radiobutton_checkbox_implicitWait;
+package com.cydeo.day_04_findElements_radiobutton_checkbox_implicitWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

@@ -14,11 +14,12 @@ public class SeleniumTest {
         WebDriver driver = new ChromeDriver();
 
         //3- Test if driver and browser are working as expected
-        driver.get("https://www.google.com");  //www.google.com
-        Thread.sleep(5000);
+          driver.get("https://www.google.com/");//goto www.google.com    https://www.google.com/    WebDriver class has .get("URL")
+//        Thread.sleep(5000);
         //driver.findElement(By.xpath("//button[@id='L2AGLb']/div")).click();
 
-        driver.get("https://www.tesla.com");
+        // https://www.tesla.com/   driver get("URL")
+        driver.get("https://www.tesla.com/");
 
     }
 }
